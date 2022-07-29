@@ -22,7 +22,7 @@ ngay tại nhà mà không cần phải ra Rạp Chiếu.
 	- 🔥Quản lý phim và thông tin lịch chiếu phim
 	- 🔥Quản lý người dùng trong hệ thông
 - Thời gian bắt đầu: 
-	- 09-04-2022 -> Nay
+	- 09-04-2022 -> 29-07-2022
 	- Link gốc: 
 	
 	Backend: https://github.com/vinh-nd2002/backend-booking-movies-tickets
