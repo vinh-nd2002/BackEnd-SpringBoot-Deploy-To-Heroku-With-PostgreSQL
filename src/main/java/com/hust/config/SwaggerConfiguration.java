@@ -29,7 +29,7 @@ public class SwaggerConfiguration {
 				"1.0", // version
 				"Terms of service URL", // termsOfServiceUrl
 				new Contact("NGŨ DUY VINH", "https://www.facebook.com/lai.vinh.718", "nguduyvinh2k2@gmail.com"), // contact
-				"Apache 2.0", "http://www.apache.org/licenses/LICENSE-2.0.html", // license
+				"Apache 4.0", "http://www.apache.org/licenses/LICENSE-4.0.html", // license
 				Collections.emptyList()); // vendors
 	}
 }
