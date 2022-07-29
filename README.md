@@ -24,6 +24,7 @@ ngay tại nhà mà không cần phải ra Rạp Chiếu.
 - Thời gian bắt đầu: 
 	- 09-04-2022 -> Nay
 	- Link gốc: 
+	
 	Backend: https://github.com/vinh-nd2002/backend-booking-movies-tickets
 	
 	Frontend: https://github.com/vinh-nd2002/frontend-booking-movies-tickets
