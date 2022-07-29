@@ -2,6 +2,7 @@ package com.hust.services;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.SimpleMailMessage;
@@ -93,7 +94,7 @@ public class EmailService implements IEmailService {
 		tickets = tickets.stream()
 				.filter(item -> item.getTicketsOfScheduleMovie().getScheduleMovieId() == scheduleMovieId
 						&& item.getTicketStatus().equals(Status.PENDING))
-				.toList();
+				.collect(Collectors.toList());
 
 		// get ticket's code
 		List<String> ticketCodes = new ArrayList<String>();
