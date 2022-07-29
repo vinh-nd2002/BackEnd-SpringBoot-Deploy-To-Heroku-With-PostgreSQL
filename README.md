@@ -41,7 +41,9 @@ ngay tại nhà mà không cần phải ra Rạp Chiếu.
 
 🚀 CÔNG NGHỆ SỬ DỤNG:
 
-I>  BackEnd: Spring Framework 
+I>  Mô hình: Client - Server
+
+II>  BackEnd: Spring Framework 
   1. Spring Mail
 	
 	- Sau khi người dùng đăng ký tài khoản mới thành công sẽ gửi mail confirm
@@ -76,7 +78,7 @@ I>  BackEnd: Spring Framework
 	
 	- Ứng dụng bên thứ 3, sử dụng để lưu trữ ảnh , file 
 	
-II> FrontEnd: ReactJS
+III> FrontEnd: ReactJS
   1. axios
 	
 	- Call API
