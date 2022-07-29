@@ -86,7 +86,8 @@ public class UserController {
 		// active user
 		userService.activeUser(token);
 
-		return new ResponseEntity<>("Active success!", HttpStatus.OK);
+		return new ResponseEntity<>(
+				"Active success! \n CLick here to login: https://moviesstar.herokuapp.com/auth/login", HttpStatus.OK);
 	}
 
 	// resend confirm active user

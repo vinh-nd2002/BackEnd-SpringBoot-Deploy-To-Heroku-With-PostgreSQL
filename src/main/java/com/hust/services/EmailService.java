@@ -52,7 +52,8 @@ public class EmailService implements IEmailService {
 
 		String tokenConfirm = registrationUserTokenRepository.findTokenByUserId(user.getUserId());
 
-		String confirmationUrl = "http://localhost:8080/api/v1/users/active-user?token=" + tokenConfirm;
+		String confirmationUrl = "https://booking-movie-made-by-vinh.herokuapp.com/api/v1/users/active-user?token="
+				+ tokenConfirm;
 
 		String subject = "Xác Nhận Đăng Ký Thành Viên Mới";
 		String content = "Bạn đã đăng ký thành công. Click vào link dưới đây để kích hoạt tài khoản \n"
@@ -71,7 +72,7 @@ public class EmailService implements IEmailService {
 
 		String tokenResetPassword = resetPasswordTokenRepository.findByUserId(user.getUserId());
 
-		String resetPasswordUrl = "http://localhost:3000/auth/new-password/" + tokenResetPassword;
+		String resetPasswordUrl = "https://moviesstar.herokuapp.com/auth/new-password/" + tokenResetPassword;
 
 		String subject = "Xác Nhận Thiết Lập Lại Mật Khẩu Mới";
 		String content = "Xin chào " + user.getLastName()
