@@ -97,7 +97,7 @@ II> FrontEnd: ReactJS
 	
 	- Tiết kiệm thời gian, giao diện đẹp mắt, dễ sử dụng
 	
-	6. tailwind CSS
+  6. tailwind CSS
 	
 	- Thư viện CSS, ngắn gọn, dễ sử dụng
 	
